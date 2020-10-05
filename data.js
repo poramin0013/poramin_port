@@ -1,53 +1,48 @@
 const data = {
-    "fullname" : "Mr. Thanayut Samsang",
-    "nickname" : "Noch",
-    "motto" : "When you stop advancing, you’ve already begun to retreat.",
+    "fullname" : "Mr. Poramin Jumphom",
+    "nickname" : "Jam",
+    "motto" : "Welcome to my world, The world of gentleman lifestyles",
     "work" : "Student at Software Engineering Program in Nakhon Pathom Rajabhat University",
     "aboutme" : {
-        "name" : "Mr.Thanayut Samsang",
-        "nickname" : "Noch",
+        "name" : "Mr.Poramin Jumphom",
+        "nickname" : "JAM",
         "sex" : "Male",
-        "education" : "Songphinongwittaya School",
-        "date" : "Saturday 4th September 1999",
+        "education" : "Matthayom Thanbin Kampaengsaen School",
+        "date" : "06 September 1999",
         "age" : "21 years",
         "nationality" : "Thai",
         "race" : "Thai",
         "religion" : "Buddhism",
-        "bloodgroup" : "B",
-        "address" : "88/1 Moo.12 Bangtatan Songphinong Suphanburi 72110",
-        "phone" : "0651134910",
-        "email" : "614259018@webmail.npru.ac.th",
-        "characteristic" : "Talk openly",
-        "hobbies" : "Listen to music, See movie, Betta fish farming, Learn more about your interests.",
-        "sport" : "Futsal",
-        "pets" : "Bettas",
-        "attitude" : "Positive",
-        "motto" : "When you stop advancing, you’ve already begun to retreat."
+        "bloodgroup" : "A",
+        "address" : "18/1 Group 7 Srisamran Songphinong Suphanburi Thailand 72190",
+        "phone" : "061 316 7091",
+        "email" : "poramin0013@gmail.com",
+        
     },
     "education" : {
-        "education1" : "Songphinong School",
-        "education2" : "Songphinong School",
-        "education3" : "Songphinongwittaya School",
+        "education1" : "Ban Srapungkrang School",
+        "education2" : "Matthayom Thanbin Kampaengsaen School",
+        "education3" : "Matthayom Thanbin Kampaengsaen School",
         "education4" : "Nakhon Pathom Rajabhat University"
     },
     "experience" : {
-        "experience1" : "none"
+        "experience1" : "Not Have!!!! (I'm studying)"
     },
     "skill" : {
-        "html" : "Level-Basic",
-        "css" : "Level-Basic",
-        "php" : "Level-Basic",
-        "java" : "Level-Basic",
-        "javascript" : "Level-Basic",
-        "sql" : "Level-Basic",
-        "json" : "Level-Basic"
+        "html" : "★★★★☆",
+        "css" : "★★★☆☆",
+        "php" : "★★★★☆",
+        "java" : "★☆☆☆☆",
+        "javascript" : "★☆☆☆☆",
+        "sql" : "★★★☆☆",
+        "json" : "☆☆☆☆☆"
     },
     "contact" : {
-        "fb" : "Thanayut Samsang",
-        "ig" : "The.NOCH",
-        "line" : "p.nochee",
-        "email" : "614259018@webmail.npru.ac.th",
-        "phone" : "0651134910"
+        "fb" : "PORAMIN JUMPHOM",
+        "ig" : "poramin.j",
+        "line" : "13poramin",
+        "email" : "poramin0013@gmail.com",
+        "phone" : "061 316 7091"
     }
 };
 module.exports = data;

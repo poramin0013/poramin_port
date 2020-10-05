@@ -3,14 +3,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#24252a;
+    background-color:#546ef0;
 }
 
 li, a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #ffffff;
     text-decoration: none;
     list-style: none;
 }
@@ -26,8 +26,8 @@ header{
     padding: 9px 25px;
     font-size: 16px;
     font-weight: 820;
-    color: #24252a;
-    background-color: #f4a7bb;
+    color: #a2b0f6;
+    background-color: #29396e;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -35,7 +35,7 @@ header{
 }
 
 .logo:hover {
-    background-color: #f4a7bb ;
+    background-color: #66acfc ;
 }
 
 .nav_links {
@@ -53,7 +53,7 @@ header{
 }
 
 .nav_links li a:hover{
-    color: #f4a7bb;
+    color: #002cf1;
 
 }
 
@@ -63,7 +63,7 @@ header{
     font-size: 16px;
     font-weight: 720;
     color: #24252a;
-    background-color: #f4a7bb;
+    background-color: #2b40fd;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -71,11 +71,11 @@ header{
 }
 
 .contact:hover {
-    background-color: #f4a7bb ;
+    background-color: #ffffff ;
 }
 
 .bg {
-    background-image: url("https://images.unsplash.com/photo-1522332870908-7c428896fb25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("https://image.freepik.com/free-vector/black-blue-background_71775-1058.jpg");
     display: flex;
     box-sizing: border-box;
     background-size: cover;
@@ -90,10 +90,10 @@ header{
 
 .image {
     margin-left: 100px;
-    width: 55%;
-    -moz-border-radius: 700px;
-    -webkit-border-radius: 700px;
-    border-radius: 700px;
+    width: 100%;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
 main {
@@ -103,22 +103,22 @@ main {
 .idx1 {
     padding-top: 150px;
     padding-left: 7.8%;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    color:#d1fdff ;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
 }
 
 .idx2 {
     padding-top: 10px;
     padding-left: 7.8%;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    color:#d1fdff ;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
     line-height: 35px;
 }
 
 .ft {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -132,8 +132,8 @@ main {
     padding-top: 10px;
     padding-left: 7.8%;
     margin-top: 50px;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    color:#edf0f1 ;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
 }
 
@@ -141,8 +141,8 @@ main {
     padding-top: 10px;
     padding-left: 15%;
     margin-top: 50px;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    color:#edf0f1 ;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ main {
     padding-left: 105px;
     margin-top: 50px;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ main {
     padding-left: 15%;
     margin-top: 50px;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
 }
 
@@ -169,7 +169,7 @@ main {
     padding-left: 7.8%;
     margin-top: 50px;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', sans-serif;
     text-decoration: none;
 }
 
@@ -239,3 +239,5 @@ main {
 .email {
     font-size: 20px;
 }
+
+
