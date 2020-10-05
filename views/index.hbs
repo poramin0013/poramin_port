@@ -1,18 +1,35 @@
-<link rel="stylesheet" href="index.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mystargram</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
-    <div class="bg">
-        <div class="text">
-            <div class="hello">
-                <h1>★ ★ ★ ★ ★</h1>
-                <h1 class="idx1">:: Ladies and gentlemen, I'am {{myData.nickname}}</h1>
-            </div>
-            <div class="motto">
-                <h2 class="idx2">{{myData.motto}}</h2>
-            </div>
-        </div>
-        <div class="content">
-            <img class="image" src="img/Jam1.png">
-        </div>
-        
+    <div class="controls" align = "center" >
+        <label for="spacing" style="font-family:Courier font-weight-bold New;  color:#2D191A">Spacing</label>
+        <input id="spacing" name="spacing" type="range" min="10" max="100" value="10" data-sizing="px">
+
+        <label for="blur"style="font-family:Courier; font-weight-bold New;  color:#2D191A">Blur:</label>
+        <input id="blur" name="blur" type="range" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="Basecolor"style="font-family:Courier; font-weight-bold New;  color:#2D191A">Basecolor</label>
+        <input id="base" type="color" name="base">
     </div>
+
+    <h1 style="font-family:Courier font-weight-bold New;  color:#2D191A">Mystargram</h1>
+    <input style="font-family:Courier" type="text" name="search" placeholder="search photos" class="search">.
+    <br>
+    <div class="gallery"></div>
+
+
+    <script src="index.js"></script>
 </body>
+
+</html>
